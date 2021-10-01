@@ -1,10 +1,7 @@
-## RASPBERRY PI
+# RASPBERRY PI
 
 
-# HOME AUTOMATION
-
-
-
+## HOME AUTOMATION
 
 
 
@@ -33,7 +30,10 @@
 
 
 
-# PRIVATE VPN WITH TAILSCALE
+
+
+
+## PRIVATE VPN WITH TAILSCALE
 
 
 TailScale VPN setup for Linux
