@@ -22,6 +22,3 @@ With this final command, the Rpi will be an exit node:
 
 sudo tailscale up --advertise-exit-node
 sudo tailscale up --exit-node=<your-ip-address>
-
-## NOTE : IT CAN HAPPEN THAT YOU SET THE TAILSCAPE ADMIN WITH YOUR LAPTOP , SO YOU HAVE TO SET THE EXIT NODE VIA TAILSCALE IN YOUR COMPUTER
-  BUT WITH THE COMMANDS SHOULD BE OKAY
