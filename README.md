@@ -1,7 +1,42 @@
-# Rpi
-Content related with RaspberryPI and Linux
+## RASPBERRY PI
 
-TailScale VPN setup
+
+# HOME AUTOMATION
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# PRIVATE VPN WITH TAILSCALE
+
+
+TailScale VPN setup for Linux
 ```
 sudo apt-get install apt-transport-https &&
 curl -fsSL https://pkgs.tailscale.com/stable/raspbian/buster.gpg | sudo apt-key add - &&
