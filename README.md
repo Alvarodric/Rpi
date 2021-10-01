@@ -3,34 +3,7 @@
 
 ## HOME AUTOMATION
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## AWS IOT WITH SENSORS
 
 
 ## PRIVATE VPN WITH TAILSCALE
