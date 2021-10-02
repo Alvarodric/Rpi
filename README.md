@@ -53,5 +53,9 @@ echo 'net.ipv6.conf.all.forwarding = 1' | sudo tee -a /etc/sysctl.conf &&
 sudo sysctl -p /etc/sysctl.conf &&
 sudo tailscale down
 sudo tailscale up --advertise-exit-node
+```
+
+Finally set up the exit mode in your admin console in the web or use this command in the RPi
+```
 sudo tailscale up --exit-node=<your-ip-address>
 ```
