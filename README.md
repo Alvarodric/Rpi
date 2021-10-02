@@ -18,6 +18,7 @@ python3 -m venv /srv/homeassistant
 source /srv/homeassistant/bin/activate
 hass
 ```
+https://www.youtube.com/watch?v=lElNfFRcIx8
 
 
 
