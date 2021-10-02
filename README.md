@@ -2,6 +2,22 @@
 
 
 ## HOME AUTOMATION
+#INSTALL HOMEASSISTANT
+
+
+
+
+```
+sudo -u homeassistant -H -s
+cd /srv/homeassistant
+python3 -m venv /srv/homeassistant
+source /srv/homeassistant/bin/activate
+hass
+```
+
+
+
+
 
 ## AWS IOT WITH SENSORS
 
