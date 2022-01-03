@@ -2,6 +2,24 @@
 
 ## AWS IOT WITH SENSORS
 
+## STATIC IP IN RPI
+
+```
+sudo nano /etc/dhcpcd.conf
+```
+At the end of the file put: (being 192.168.0.4 the static ip address you want once rpi starts)
+```
+interface eth0
+static ip_address=192.168.0.4/24
+static routers=192.168.0.1
+static domain_name_servers=192.168.0.1
+```
+Finally reboot
+```
+sudo reboot
+```
+
+
 ## PRIVATE VPN WITH TAILSCALE
 
 
