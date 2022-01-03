@@ -3,18 +3,19 @@
 ## AWS IOT WITH SENSORS
 
 ## STATIC IP IN RPI
-
+Useful for HomeAssistant if you dont want that the ip address change everytime the rpi reboots
 ```
 sudo nano /etc/dhcpcd.conf
 ```
-At the end of the file put: (being 192.168.0.4 the static ip address you want once rpi starts)
+At the end of the file write: (in this case 192.168.0.4 is the static ip address that you want, once rpi starts)
+wlan0 is for wireless connection
 ```
-interface eth0
+interface wlan0
 static ip_address=192.168.0.4/24
 static routers=192.168.0.1
 static domain_name_servers=192.168.0.1
 ```
-Finally reboot
+Finally, reboot rpi
 ```
 sudo reboot
 ```
